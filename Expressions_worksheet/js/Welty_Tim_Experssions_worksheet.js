@@ -29,5 +29,7 @@ function add(a, b) {
 console.log(sum); 
 var days = 5;
 average= sum / days;
-console.log(average); 
+console.log(average); //combined two problems to end up with a process of my total overhead averaged over 5 days.
+
+
 

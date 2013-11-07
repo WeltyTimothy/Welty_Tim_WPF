@@ -30,4 +30,4 @@ var num = 2;
 /*muppetNames[1] = "rizzo"; //change index #1 to rizzo
 muppetNames[2] = "fozzy"; */
 
-console.log(muppetNames[2]); //lets me see what index 1 is
+console.log(muppetNames[1]); //lets me see what index 1 is

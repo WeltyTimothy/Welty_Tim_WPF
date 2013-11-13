@@ -32,8 +32,6 @@ if(temps){
 		console.log("0, 100, 32.22"); 
 }
 
-
-
  
 
 /*//Conditions with Expressions

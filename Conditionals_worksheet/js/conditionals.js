@@ -2,7 +2,7 @@
 
 //Relational Expressions
 //if the kid is over 48 inches in height 
-var temp = 80;
+/*var temp = 80;
 	if(temp < 75){
 		//code preformed if the statement is true
 		console.log("We will go to the beach"); 
@@ -10,12 +10,31 @@ var temp = 80;
 	else{
 		console.log("We will go to the movies");
 }
-
+*/
 var temp = [32, 212, 90];
-var temp2;
+var temps = [ 0, 100, 32,22];
+
+if(temp){
+		//code preformed if the statement is true
+	console.log("0, 100, 32.22");
+}
+	else{
+		//code preformed if the statement is true
+		console.log("32, 212, 90"); 
+}
+
+if(temps){
+		//code preformed if the statement is true
+	console.log("32, 212, 90");
+}
+	else{
+		//code preformed if the statement is true
+		console.log("0, 100, 32.22"); 
+}
+
  
 
-//Conditions with Expressions
+/*//Conditions with Expressions
 //if the kid is over 48 inches in height 
 var kidHeight = 47;
 var minHeight = 48;
@@ -104,17 +123,16 @@ if (gpa > 2.0){
 		console.log("GPA is too low!");
 }
 
-(gpa > 2.0) ? console.log("You can graduate!") : console.log("Your GPA is too low!");*/	
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("Your GPA is too low!");
 
 var age = 6;
 var book;
-/*//if the child is under 10 he gets green eggs and ham otherwise he gets time machine
+//if the child is under 10 he gets green eggs and ham otherwise he gets time machine
 if(age < 10){
 	book = "Green Eggs and Ham";
 }
 	else{
 		book = "The Time Machine";
-}*/
+}
 book = (age <10 ) ? "Green Eggs and Ham" : "The Time Machine";
-console.log(book);
-	
+console.log(book);*/

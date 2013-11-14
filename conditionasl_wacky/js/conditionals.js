@@ -1,19 +1,18 @@
 // Timothy Welty 11/13/2013
 
 var evaporation = ["humidity"]
-var heat = prompt("what is the temperature now?");
-var time = prompt("What time is it?.");
-var humidity = prompt("How humid is it outside?");
-var allowed = 100
-var total = heat && time * humidity;//calculates what that info is going be
- 	if(time && heat * humidity >= allowed){ 
+var fear = prompt("How many ducks will scare you?");
+var attack = prompt("How many ducks can you take on by yourself?");
+var quantity = prompt("How many do you see outside?");
+var total = quantity - attack ;//calculates what that info is going be
+ 	if(quantity - attack >= fear ){ 
 		//this will print out if the code is false
-		console.log("It is too muggy go back inside!") 
+		console.log("TOO MANY DUCKS!") 
 }
 	else{//this will print out if the code is true
-		console.log("Well lets go party at the beach now!");
+		console.log("It is safe to go outside...for now");
 	}
 
-var result = "It is % " + total + " humid"
+var result = "There are " + total + " ducks outside. You better take them out quickly!"
 console.log(total, evaporation[0]);
 alert(result);

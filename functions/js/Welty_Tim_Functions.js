@@ -46,3 +46,21 @@ function calcArea(){
 console.log(width + ' square feet');//scoped to the first width becase of basic code logic
 
 //Arguments and Parameters
+/* function functionName(parameter1, parameter2){
+	code the function runs
+}*/
+
+calcArea(30, 20);
+
+function calcArea(w, h){
+	var area = w * h;
+	console.log(area + 'square feet');
+}
+
+function dogYears(age){
+	var dogYears = age * 7;
+	console.log('sparky is ' + dogYears + ' years old');
+	}
+var age1 = 4;
+dogYears(age1);
+dogYears(5);

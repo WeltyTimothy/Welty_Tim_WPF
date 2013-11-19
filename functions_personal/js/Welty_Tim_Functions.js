@@ -1,91 +1,18 @@
 //Timothy Welty 11/19/2013
-
-beeSting(8.66666667, 200);
-
-function beeSting(amount, weight){
-	var stings = weight * amount;
-	console.log('It will take ' + stings + ' beestings to kill you');
+alert("Let's see how far and how fast you can get somewhere")
+var timeLeft = prompt("How much time do you have left to travel?")
+var speed = prompt("Please enter in your average speed.")//gives a prompt to enter a value or given
+var miles =prompt("Please enter in how many miles it takes to get to destination.") 
+var hours = miles / speed;
+if (miles / speed >=timeLeft){
+		alert("You  have gotten there too late...")
+		console.log('you will get there ' + hours + ' hours too late');
+}
+	else{
+		alert("You made it!")
+		console.log('you will get there in ' + hours + ' hours. Good Job!');
 }
 
-/* Basic Function 
- function functionName(){
-	code the function runs
-}
+(miles / speed >= timeLeft) ? console.log('you will get there ' + hours + ' hours too late') : console.log('you will get there in ' + hours + ' hours. Good Job!'); 
 
-function outptMsg(){
-	console.log('hello world');
-}
-
-function calcArea(){
-	var width = 20;
-	var height = 30;
-	var area = width * height;
-	console.log(area + ' square feet');
-}
-
-Function Invocation
-
-function outptMsg(){
-	console.log('hello world');
-}
-
-function calcArea(){
-	var width = 20;
-	var height = 30;
-	var area = width * height;
-	console.log(area + ' square feet');
-}
-
-calcArea();
-calcArea();
-calcArea();
-
-Variable Scope
-var width = 5; //scoped out of the function
-
-function calcArea(){
-	var width = 20;
-	var height = 30;
-	var area = width * height;
-	console.log(area + ' square feet');
-}
-console.log(width + ' square feet');//scoped to the first width becase of basic code logic
-
-Arguments and Parameters
- function functionName(parameter1, parameter2){
-	code the function runs
-}
-
-calcArea(30, 20);
-
-function calcArea(w, h){
-	var area = w * h;
-	console.log(area + 'square feet');
-}
-
-function dogYears(age){
-	var dogYears = age * 7;
-	console.log('sparky is ' + dogYears + ' years old');
-	}
-var age1 = 4;
-dogYears(age1);
-dogYears(5);
-
-Returning Values
-var total = calcArea(30, 20);
-
-function calcArea(w, h){
-	var area = w * h;
-	return area;//spitting the info out but there isnt a place to store it
-}
-console.log(total);
-
-Anonymous Functions (Closures)
-
-var calcArea = function(width, height){//defining the parameters
-	var area = width * height; 
-	return area;
-}
- 
-var a = calcArea(20, 30); //invoking
-console.log(a);*/
+//tenary command to draw out the equation and tell me if I make it home or not

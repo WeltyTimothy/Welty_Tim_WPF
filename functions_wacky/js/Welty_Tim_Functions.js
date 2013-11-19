@@ -1,16 +1,9 @@
 //Timothy Welty 11/19/2013
 
-function outptMsg(){
-	console.log('hello world');
+var pies = function(pie, banana){//defining the parameters
+	var total = pie % banana; 
+	return total;
 }
-
-function calcArea(){
-	var width = 20;
-	var height = 30;
-	var area = width * height;
-	console.log(area + ' square feet');
-}
-
-calcArea();
-calcArea();
-calcArea();
+ 
+var a = pies(36590, 15); //invoking
+console.log('You should use roughly '+ a + ' bananas per pie');

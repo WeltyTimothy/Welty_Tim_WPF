@@ -4,7 +4,7 @@ var alarm = prompt("Please enter in military time what your alarm is set to wake
 var shower =prompt("Please enter in military time how long it takes to shower.") 
 var traffic = prompt("Please enter in military time how long it takes to get to work.") 
 
-if (alarm + shower + traffic >= 0900){
+if (alarm + shower + traffic >= 0900){//is the given equation to be solved via javascript
 		console.log("You made it to work on time!");
 }
 	else{
